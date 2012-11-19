@@ -7,7 +7,7 @@ module.exports = function( grunt ) {
         // Tell grunt this task is asynchronous.
         var done    = this.async();
         var exec    = require( 'child_process' ).exec;
-        var command = 'compass clean';
+        var command = 'bundle exec compass clean';
 
         function puts( error, stdout, stderr ) {
 

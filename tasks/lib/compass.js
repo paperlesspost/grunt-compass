@@ -8,7 +8,7 @@ exports.init = function( grunt ) {
     exports.buildCommand = function( data, done ) {
 
         var src, dest, specify, matchedFiles;
-        var command        = "compass compile";
+        var command        = "bundle exec compass compile";
         var config         = data.config;
         var images         = data.images;
         var fonts          = data.fonts;
